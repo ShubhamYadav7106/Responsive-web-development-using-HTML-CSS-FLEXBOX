@@ -1,0 +1,307 @@
+@media (min-width:1200px) and (max-width:1400px){
+/* section-first  */
+.food p{
+font-size: 14px;
+line-height: 20px;
+}
+
+}
+@media (min-width:992px) and (max-width:1200px){
+
+    /* section-first */
+    
+    .food h1{
+        font-size: 45px;
+    }
+    .food p{
+        font-size: 11px;
+    }
+    .section-second{
+        padding: 28px 0px;
+    }
+    .hp{
+        padding-left: 15px;
+    }
+    .section-second {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 28px 40px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+
+    /* section-first */
+    .plate {
+        width: 75%;
+    }
+    .food{
+        width: 100%;
+        text-align: center;
+    }
+    .food h1 {
+        font-size: 40px;
+    }
+    .food p {
+        font-size: 11px;
+    }
+    .food button {
+        padding: 14px 15px;
+        font-size: 16px;
+    }
+    .food .food-discount {
+        font-size: 12px;
+    }
+    /* section-second  */
+    .section-second{
+        padding: 28px 0px;
+        justify-content: normal;
+    }
+    .hp{
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .healthy-food{
+        padding-top: 12px;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .voucher{
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .fast-delivary{
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        padding: 25px 0;
+    }
+    /* section-third  */
+    .section-third-bottom-img {
+        width: 22%;
+        padding: 2px 0px 51px;
+    }
+    .section-third-top-img img {
+        object-fit: cover;
+        height: 90%;
+    }
+    .footer-logo {
+        padding-bottom: 36px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .footer-logo img {
+        width: 40%;
+    }
+    .follow{
+        width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    }
+    .follow img {
+        padding: 10px 14px;
+        width: 50px;
+    }
+    .facebook img{
+        height: 43px;
+        width: 43px;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    /* section-first */
+    .section-first{
+        padding: 29px 78px;
+    }
+    .plate {
+        width: 75%;
+    }
+    .food{
+        width: 100%;
+        text-align: center;
+        padding: 75px 0 0;
+    }
+    .food h1 {
+        font-size: 35px;
+    }
+    .food p {
+        font-size: 10px;
+    }
+    .food button {
+        padding: 9px 10px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .food .food-discount {
+        font-size: 9px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /* section-second  */
+    .btn{
+        width: 100%;
+    }
+    .section-second{
+        padding: 28px 27px;
+    }
+    .hp{
+        font-size: 14px;
+        padding-left: 12px;
+    }
+    .voucher, .fast-delivary{
+        width: 100%;
+    }
+    .healthy-food{
+        padding: 19px 0;
+        width: 100%;
+    }
+    /* section-third  */
+    .section-third{
+        padding: 20px 70px 0;
+    }
+    .section-third-bottom-img {
+        width: 22%;
+        padding: 2px 0px 51px;
+    }
+    .section-third-top-img img {
+        object-fit: cover;
+        height: 100%;
+    }
+    .menu{
+        margin: 10px 0;
+        padding: 0px 78px;
+    }
+    /* footer  */
+    .footer-logo{
+        padding-bottom: 36px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .footer-logo img{
+        width: 40%;
+        
+    }
+    .follow{
+        width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    }
+    .follow img {
+        padding: 10px 14px;
+        width: 50px;
+    }
+    .facebook img{
+        height: 43px;
+        width: 43px;
+    }
+}
+@media (max-width:576px) {
+/* header  */
+header{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 0px 60px;
+}
+.header-logo{
+    width: 50%;
+}
+.bar{
+    width: 10%;
+}
+    /* section-first */
+    .section-first{
+        padding: 29px 65px;
+    }
+    .plate {
+        width: 100%;
+        padding-bottom: 52px;
+    }
+    .food{
+        width: 100%;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .food h1 {
+        font-size: 30px;
+    }
+    .food p {
+        font-size: 7px;
+    }
+    .food button {
+        padding: 9px 10px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .food .food-discount {
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    /* section-second  */
+    .section-second{
+        padding: 28px 27px;
+        margin: 0px 24px;
+    }
+    .hp{
+        font-size: 14px;
+        padding-left: 11px;
+    }
+    .voucher, .fast-delivary{
+        width: 100%;
+        justify-content: center;
+    }
+    .healthy-food{
+        padding: 10px 0px 15px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* section-third  */
+    .section-third-top-img  {
+        padding: 0px 0px;
+    }
+    .section-third-top-img img {
+        height: 80%;
+    }
+    .section-third-bottom-img {
+        width: 22%;
+        padding: 2px 0px 51px;
+    }
+    .menu{
+        padding: 0 65px;
+    }
+    .btn{
+        width: 100%;
+            font-size: 15px;
+    }
+    /* footer  */
+    .footer-logo{
+        padding-bottom: 36px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .footer-logo img{
+        width: 40%;
+    }
+    input {
+        padding: 7px 39px;
+    }
+    .follow{
+        width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    }
+    .follow img {
+        padding: 10px 14px;
+        width: 50px;
+    }
+    .facebook img{
+        height: 43px;
+        width: 43px;
+    }
+}
